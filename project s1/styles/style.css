@@ -1,0 +1,159 @@
+* {
+    margin: 10px 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin: 0 22px;
+    white-space: nowrap;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+content {
+    margin-top: 30px;
+}
+.post {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    font-size: 15px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.store-info,
+.personal-info,
+.note {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.branding {
+    text-align: right;
+}
+
+.post-img{
+    display: flex;
+}
+
+.post {
+    display: flex;
+    flex-direction: column; /* Hiển thị các phần tử con theo hướng dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    text-align: center;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Khoảng cách giữa post-img và post-detail */
+}
+
+.post-img {
+    display: flex;
+    margin-bottom: 20px; /* Khoảng cách giữa post-img và post-detail */
+}
+
+#about {
+    width: 100%;
+    max-width: 800px; /* Giới hạn chiều rộng của phần about */
+    background-color: #333; /* Màu nền */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.input_field {
+    margin-bottom: 15px; /* Khoảng cách giữa các input */
+}
+
+.input_field input {
+    width: 100%; /* Đảm bảo input chiếm toàn bộ chiều rộng của phần tử cha */
+    padding: 10px; /* Tăng padding để input rộng hơn */
+    font-size: 16px; /* Tăng kích thước font chữ */
+    border: 1px solid #ccc; /* Đường viền input */
+    border-radius: 5px; /* Bo tròn góc */
+}
+
+.input_field input:focus {
+    outline: none; /* Loại bỏ đường viền khi input được focus */
+    border-color: #333; /* Đổi màu đường viền khi input được focus */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Số cột tự động, với kích thước tối thiểu 250px */
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px; /* Đảm bảo chiều cao của ảnh đồng đều */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo khi thay đổi kích thước */
+}
+.wapper {
+    position:relative; 
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    width: 1000px; /* Đặt độ rộng cố định */
+    
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đăng ký và Đăng nhập</title>
+<link rel="stylesheet" href="../styles/login_register.css">
+</head>
+<body>
+<div class="container">
+    <form id="register-form" class="form">
+        <h2>Đăng ký</h2>
+        <input type="text" id="register-name" placeholder="Tên" required>
+        <input type="tel" id="register-phone" placeholder="Số điện thoại" required>
+        <input type="email" id="register-email" placeholder="Email" required>
+        <input type="password" id="register-password" placeholder="Mật khẩu" required>
+        <input type="date" id="appointment-date" required>
+        <input type="time" id="appointment-time" required>
+        <button type="submit">Đăng ký</button>
+    </form>
+    <form id="login-form" class="form">
+        <h2>Đăng nhập</h2>
+        <input type="email" id="login-email" placeholder="Email" required>
+        <input type="password" id="login-password" placeholder="Mật khẩu" required>
+        <button type="submit">Đăng nhập</button>
+    </form>
+</div>
+
+<script src="../js/login-register.js"></script>
+</body>
+</html>
